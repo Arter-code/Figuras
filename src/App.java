@@ -5,9 +5,9 @@ public class App {
         Rectangulo rectangulo = new Rectangulo(2.5, 5.4, "Rectangulo");
         Cuadrado cuadrado = new Cuadrado(4, "Cuadrado");
 
-        System.out.println("Area: "+triangulo.getTipo() +": "+ triangulo.area());
-        System.out.println("Area: "+circulo.getTipo()+": " + circulo.area());
-        System.out.println("Area: "+rectangulo.getTipo()+": " + rectangulo.area());
-        System.out.println("Area: "+cuadrado.getTipo() +": "+ cuadrado.area());
+        System.out.println("Area "+triangulo.getTipo() +": "+ triangulo.area());
+        System.out.println("Area "+circulo.getTipo()+": " + circulo.area());
+        System.out.println("Area "+rectangulo.getTipo()+": " + rectangulo.area());
+        System.out.println("Area "+cuadrado.getTipo() +": "+ cuadrado.area());
     }
 }
